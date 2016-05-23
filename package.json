@@ -1,0 +1,33 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.jsx",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "scripts": {
+    "start": "npm run serve | npm run dev",
+    "serve": "./node_modules/.bin/http-server -p 33300",
+    "dev": "webpack-dev-server -d --progress --colors --port 33301"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "http-server": "^0.8.5",
+    "node-sass": "^3.4.2",
+    "npm-install-webpack-plugin": "^2.0.2",
+    "react-dom": "^0.14.7",
+    "sass-loader": "^3.1.2",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1",
+    "react": "^0.14.7",
+    "react-link-state": "^0.1.2",
+    "style-loader": "^0.13.1"
+  }
+}

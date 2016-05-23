@@ -1,0 +1,23 @@
+.autocomplete {
+    position: relative;
+    width: 300px;
+    &__item-list {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+    }
+    &__input {
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 20px;
+        color: #37474F;
+        background: #ECEFF1;
+        border: 1px solid #37474F;
+        border-width: 0 0 1px 0;
+        box-sizing: border-box;
+        width: 100%;
+        &:focus {
+            outline: none;
+        }
+    }
+}

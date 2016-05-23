@@ -1,0 +1,15 @@
+.autocomplete-item {
+    background: #455A64;
+    color: #B3E5FC;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    &:hover,
+    &.--current {
+        cursor: pointer;
+        background: #37474F;
+    }
+}
